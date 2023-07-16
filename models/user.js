@@ -1,12 +1,15 @@
 const Subscription = require('./subscription')
+const uuid = require('uuid')
 
 class User {
-    constructor(name) {
+    constructor(id = uuid.v4(), name, videos = [], subscribedChannels = [], subscribers = [], subscriptions = []) {
+        this.id = id
+
         this.name = name
-        this.videos = []
-        this.subscribedChannels = []
-        this.subscribers = []
-        this.subscriptions = []
+        this.videos = videos
+        this.subscribedChannels = subscribedChannels
+        this.subscribers = subscribers
+        this.subscriptions = subscriptions
     }
 
     uploadVideo(video) {
@@ -21,6 +24,10 @@ class User {
         subscribedChannel.subscriptions.push(subscription)
 
         return subscription
+    }
+
+    static create({id, name, videos, subscribedChannels, subscribers, subscriptions}) {
+        return new User(id, name, videos, subscribedChannels, subscribers, subscriptions)
     }
 }
 
