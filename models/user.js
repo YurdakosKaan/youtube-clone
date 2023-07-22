@@ -22,7 +22,7 @@ class User {
         subscribedChannel.subscribers.push(this)
         this.subscriptions.push(subscription)
         subscribedChannel.subscriptions.push(subscription)
-
+        
         return subscription
     }
 

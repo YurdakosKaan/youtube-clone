@@ -1,16 +1,19 @@
 const userDatabase = require('./database/user-database')
+const videoDatabase = require('./database/video-database')
 const printSubscriptionHistory = require('./lib/print-subscription-history')
 
-const tolga = userDatabase.findBy('name', 'Tolga')
-const kaan = userDatabase.findByName('Kaan')
+async function main() {
+    const tolga = await userDatabase.findByName('Tolga')
+    const kaan = await userDatabase.findByName('Kaan')
 
-tolga.subscribe(kaan)
-userDatabase.update(kaan)
-userDatabase.update(tolga)
+    tolga.subscribe(kaan)
+    
+    userDatabase.update(kaan)
+    userDatabase.update(tolga)
 
-const tolga2 = userDatabase.findBy('name', 'Tolga')
-const kaan2 = userDatabase.findByName('Kaan')
+    printSubscriptionHistory(kaan)
+    console.log('-------')
+    printSubscriptionHistory(tolga)
+}
 
-printSubscriptionHistory(kaan2)
-console.log('-------')
-printSubscriptionHistory(tolga2)
+main()

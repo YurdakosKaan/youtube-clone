@@ -21,14 +21,23 @@ kaan.uploadVideo(video1)
 kaan.uploadVideo(video2)
 deniz.uploadVideo(video2)
 
-userDatabase.save([kaan, kegri, deniz])
-videoDatabase.save([video1, video2])
 
-const tolga = User.create({name: 'Tolga'})
+async function main() {
+    try {
+        await userDatabase.save([kaan, kegri, deniz])
+        await videoDatabase.save([video1, video2])
 
-userDatabase.insert(tolga)
+        const tolga = User.create({name: 'Tolga'})
 
-const users = userDatabase.load()
+        await userDatabase.insert(tolga)
 
-users.forEach(printSubscriptionHistory)
-users.forEach(printUserVideos)
+        const users = await userDatabase.load()
+
+        users.forEach(printSubscriptionHistory)
+        users.forEach(printUserVideos)
+    } catch (e) {
+        return console.log(e)
+    }
+}
+
+main()

@@ -31,155 +31,37 @@
   "subscribedChannels": "26",
   "subscribers": "27",
   "subscriptions": "28"
-},"1b62edbf-4d7c-4f27-9467-551c17d976b7","Kaan",[
+},"b86b0270-4d37-4dd7-9648-fb19da98ea6d","Kaan",[
   "29",
   "30"
 ],[
   "31"
 ],[
   "32",
-  "31",
-  "33"
+  "31"
 ],[
+  "33",
   "34",
-  "35",
-  "36",
-  "37"
-],"84820c24-4f12-4b5f-b437-2106f8bf1b52","Kegri",[],[
-  "38"
-],[],[
-  "39"
-],"7ffb0289-1a3e-4242-aeb2-c8170f9a6121","Deniz",[
-  "40"
-],[
-  "38"
-],[
-  "38"
-],[
-  "41",
-  "42"
-],"4c2ac007-3b75-4ba0-a29a-c4576b832b9e","Tolga",[],[
-  "43"
-],[],[
-  "44"
-],{
-  "id": "45",
-  "name": "46"
-},{
-  "id": "47",
-  "name": "48"
-},{
-  "id": "17",
-  "name": "18",
-  "videos": "49",
-  "subscribedChannels": "50",
-  "subscribers": "51",
-  "subscriptions": "52"
-},{
-  "id": "11",
-  "name": "12",
-  "videos": "53",
-  "subscribedChannels": "54",
-  "subscribers": "55",
-  "subscriptions": "56"
-},{
-  "id": "23",
-  "name": "24",
-  "videos": "57",
-  "subscribedChannels": "58",
-  "subscribers": "59",
-  "subscriptions": "60"
-},{
-  "subscribedChannel": "61",
-  "user": "32"
-},{
-  "subscribedChannel": "61",
-  "user": "31"
-},{
-  "subscribedChannel": "31",
-  "user": "61"
-},{
-  "subscribedChannel": "62",
-  "user": "33"
-},{
-  "id": "5",
-  "name": "6",
-  "videos": "63",
-  "subscribedChannels": "64",
-  "subscribers": "65",
-  "subscriptions": "66"
-},{
-  "subscribedChannel": "38",
-  "user": "67"
-},{
-  "id": "47",
-  "name": "48"
-},{
-  "subscribedChannel": "38",
-  "user": "68"
-},{
-  "subscribedChannel": "68",
-  "user": "38"
-},{
-  "id": "5",
-  "name": "6",
-  "videos": "69",
-  "subscribedChannels": "70",
-  "subscribers": "71",
-  "subscriptions": "72"
-},{
-  "subscribedChannel": "43",
-  "user": "4"
-},"8570bbea-634c-4e8a-aa0c-9c7e3466f20f","Video 1","e988f31b-1bf4-423d-a086-dd8c3ef283f2","Video 2",[
-  "30"
-],[
-  "61"
-],[
-  "61"
-],[
-  "35",
+  "35"
+],"300f32ff-ec4b-4946-9f1d-36a4c3b09ac5","Kegri",[],[
   "36"
 ],[],[
-  "61"
-],[],[
-  "34"
-],[],[
-  "62"
-],[],[
-  "37"
-],{
-  "id": "5",
-  "name": "6",
-  "videos": "7",
-  "subscribedChannels": "8",
-  "subscribers": "9",
-  "subscriptions": "10"
+  "33"
+],"e4a0a034-228c-431c-aca5-117577a6de3b","Deniz",[
+  "30"
+],[
+  "36"
+],[
+  "36"
+],[
+  "34",
+  "35"
+],"60dab517-3713-43fa-942b-21664bb4997a","Tolga",[],[],[],[],{
+  "id": "37",
+  "name": "38"
 },{
-  "id": "5",
-  "name": "6",
-  "videos": "7",
-  "subscribedChannels": "8",
-  "subscribers": "9",
-  "subscriptions": "10"
-},[
-  "73",
-  "40"
-],[
-  "68"
-],[
-  "67",
-  "68"
-],[
-  "39",
-  "41",
-  "42"
-],{
-  "id": "11",
-  "name": "12",
-  "videos": "13",
-  "subscribedChannels": "14",
-  "subscribers": "15",
-  "subscriptions": "16"
+  "id": "39",
+  "name": "40"
 },{
   "id": "17",
   "name": "18",
@@ -187,70 +69,27 @@
   "subscribedChannels": "20",
   "subscribers": "21",
   "subscriptions": "22"
-},[
-  "74",
-  "75"
-],[
-  "76"
-],[
-  "77",
-  "76",
-  "4"
-],[
-  "78",
-  "79",
-  "80",
-  "44"
-],{
-  "id": "45",
-  "name": "46"
-},{
-  "id": "45",
-  "name": "46"
-},{
-  "id": "47",
-  "name": "48"
-},{
-  "id": "17",
-  "name": "18",
-  "videos": "81",
-  "subscribedChannels": "82",
-  "subscribers": "83",
-  "subscriptions": "84"
 },{
   "id": "11",
   "name": "12",
-  "videos": "85",
-  "subscribedChannels": "86",
-  "subscribers": "87",
-  "subscriptions": "88"
+  "videos": "13",
+  "subscribedChannels": "14",
+  "subscribers": "15",
+  "subscriptions": "16"
 },{
-  "subscribedChannel": "89",
-  "user": "77"
+  "subscribedChannel": "36",
+  "user": "32"
 },{
-  "subscribedChannel": "89",
-  "user": "76"
+  "subscribedChannel": "36",
+  "user": "31"
 },{
-  "subscribedChannel": "76",
-  "user": "89"
-},[
-  "75"
-],[
-  "89"
-],[
-  "89"
-],[
-  "79",
-  "80"
-],[],[
-  "89"
-],[],[
-  "78"
-],{
+  "subscribedChannel": "31",
+  "user": "36"
+},{
   "id": "5",
   "name": "6",
-  "videos": "69",
-  "subscribedChannels": "70",
-  "subscribers": "71",
-  "subscriptions": "72"
-}]
+  "videos": "7",
+  "subscribedChannels": "8",
+  "subscribers": "9",
+  "subscriptions": "10"
+},"47fa0cfa-6dae-4b83-87bc-2ce07941e53a","Video 1","b9600de2-d98f-4790-bbbe-fa488012f268","Video 2"]
